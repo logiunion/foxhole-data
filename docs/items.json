@@ -25,7 +25,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "TankArmourPenetrationFactor": 1.5,
-    "bApplyTankArmourMechanics": true
+    "bApplyTankArmourMechanics": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "TankMine",
@@ -56,7 +60,10 @@
     "VehicleSubsystemDisableMultipliers": 10,
     "DeployDuration": 4,
     "bPreventBorderPlacement": true,
-    "ShouldDoLandscapeCheck": true
+    "ShouldDoLandscapeCheck": true,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "ATGrenadeW",
@@ -87,7 +94,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 7,
     "MaximumRange": 1800,
-    "DeployDuration": 4
+    "DeployDuration": 4,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRPGAmmo",
@@ -115,7 +126,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "TankArmourPenetrationFactor": 1.5,
-    "bApplyTankArmourMechanics": true
+    "bApplyTankArmourMechanics": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRPGC",
@@ -144,7 +159,11 @@
     "MaxAmmo": 1,
     "MaximumRange": 0,
     "MaximumReachability": 0,
-    "CoverProvided": 0
+    "CoverProvided": 0,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRPGHeavyC",
@@ -174,7 +193,11 @@
     "MaximumRange": 0,
     "MaximumReachability": 0,
     "CoverProvided": 0,
-    "bRequiresCoverOrLowStanceToInvoke": true
+    "bRequiresCoverOrLowStanceToInvoke": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRPGIndirectAmmo",
@@ -202,7 +225,11 @@
     "AddedHeat": 0,
     "TankArmourPenetrationFactor": 2.5,
     "bApplyTankArmourMechanics": true,
-    "bApplyTankArmourAngleRangeBonuses": false
+    "bApplyTankArmourAngleRangeBonuses": false,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRPGLightC",
@@ -230,7 +257,11 @@
     "MaximumRange": 0,
     "MaximumReachability": 0,
     "CoverProvided": 0,
-    "bIsSingleUse": true
+    "bIsSingleUse": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRPGTW",
@@ -268,7 +299,12 @@
     "AddedHeat": 0,
     "TankArmourPenetrationFactor": 2.5,
     "bApplyTankArmourMechanics": true,
-    "bApplyTankArmourAngleRangeBonuses": false
+    "bApplyTankArmourAngleRangeBonuses": false,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction",
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "ATRPGW",
@@ -297,7 +333,11 @@
     "MaxAmmo": 1,
     "MaximumRange": 3500,
     "MaximumReachability": 0,
-    "CoverProvided": 0
+    "CoverProvided": 0,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRifleAmmo",
@@ -322,7 +362,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0.33,
-    "bApplyTankArmourMechanics": true
+    "bApplyTankArmourMechanics": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRifleW",
@@ -359,7 +403,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0.33,
-    "bApplyTankArmourMechanics": true
+    "bApplyTankArmourMechanics": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATRifleTC",
@@ -385,7 +433,12 @@
     "MaxAmmo": 10,
     "CoverProvided": 1,
     "bIsLarge": true,
-    "bSupportsVehicleMounts": true
+    "bSupportsVehicleMounts": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction",
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "Aluminum",
@@ -438,7 +491,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "AssaultRifleHeavyC",
@@ -475,7 +532,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "AssaultRifleHeavyW",
@@ -511,7 +572,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "AssaultRifleWSingle",
@@ -585,7 +650,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Cloth",
@@ -617,7 +686,10 @@
     "QuantityPerCrate": 20,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 1.5,
-    "CrateRetrieveTime": 6
+    "CrateRetrieveTime": 6,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "BloodPlasma",
@@ -631,7 +703,10 @@
     "QuantityPerCrate": 50,
     "CrateProductionTime": 40,
     "SingleRetrieveTime": 0.5,
-    "CrateRetrieveTime": 8
+    "CrateRetrieveTime": 8,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "RifleLightW",
@@ -669,7 +744,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Components",
@@ -684,7 +763,10 @@
     "QuantityPerCrate": 100,
     "CrateProductionTime": 200,
     "SingleRetrieveTime": 6,
-    "CrateRetrieveTime": 6
+    "CrateRetrieveTime": 6,
+    "ProducedIn": [
+      "FacilityRefinery2"
+    ]
   },
   {
     "CodeName": "Concrete",
@@ -701,7 +783,10 @@
     "CrateProductionTime": 200,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefineryCoal"
+    ]
   },
   {
     "CodeName": "Copper",
@@ -755,9 +840,7 @@
     "ItemProfileType": "RefinedFuel",
     "Encumbrance": 290,
     "EquipmentSlot": "Tertiary",
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 5,
     "SingleRetrieveTime": 1.5,
@@ -807,7 +890,10 @@
     "AddedHeat": 0,
     "bCanRuinStructures": true,
     "DeployDuration": 1.5,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "Explosive",
@@ -841,7 +927,10 @@
     "CrateProductionTime": 60,
     "SingleRetrieveTime": 10,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "FacilityComponents1",
@@ -856,7 +945,10 @@
     "QuantityPerCrate": 100,
     "CrateProductionTime": 200,
     "SingleRetrieveTime": 6,
-    "CrateRetrieveTime": 6
+    "CrateRetrieveTime": 6,
+    "ProducedIn": [
+      "FacilityMineResource2"
+    ]
   },
   {
     "CodeName": "FlameAmmo",
@@ -948,7 +1040,10 @@
     "MaxAmmo": 75,
     "MaximumRange": 0,
     "MaximumReachability": 0,
-    "CoverProvided": 0
+    "CoverProvided": 0,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "FlameBackpackW",
@@ -974,7 +1069,10 @@
     "MaxAmmo": 55,
     "MaximumRange": 0,
     "MaximumReachability": 0,
-    "CoverProvided": 0
+    "CoverProvided": 0,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "FlameTorchC",
@@ -1015,7 +1113,11 @@
     "bApplyDamageFalloff": true,
     "bCanWoundCharacter": true,
     "bAppliesBurning": true,
-    "bNeverAppliesBleeding": true
+    "bNeverAppliesBleeding": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "FlameTorchW",
@@ -1056,7 +1158,11 @@
     "bApplyDamageFalloff": true,
     "bCanWoundCharacter": true,
     "bAppliesBurning": true,
-    "bNeverAppliesBleeding": true
+    "bNeverAppliesBleeding": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "GasMaskFilter",
@@ -1071,7 +1177,10 @@
     "QuantityPerCrate": 20,
     "CrateProductionTime": 50,
     "SingleRetrieveTime": 2.5,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "GrenadeAdapter",
@@ -1090,7 +1199,10 @@
     "QuantityPerCrate": 20,
     "CrateProductionTime": 100,
     "SingleRetrieveTime": 10,
-    "CrateRetrieveTime": 20
+    "CrateRetrieveTime": 20,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "GrenadeC",
@@ -1121,7 +1233,11 @@
     "bCanWoundCharacter": true,
     "bAlwaysAppliesBleeding": true,
     "MaximumRange": 0,
-    "DeployDuration": 4
+    "DeployDuration": 4,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "GrenadeLauncherC",
@@ -1153,7 +1269,11 @@
     "MaximumRange": 0,
     "MaximumReachability": 0,
     "DeployDuration": 4,
-    "CoverProvided": 0
+    "CoverProvided": 0,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "GroundMaterials",
@@ -1196,7 +1316,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "MaximumRange": 0,
-    "DeployDuration": 4
+    "DeployDuration": 4,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "HERocketAmmo",
@@ -1231,7 +1355,10 @@
     "bCanWoundCharacter": true,
     "bAppliesBurning": true,
     "bNeverAppliesBleeding": true,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "HeavyExplosive",
@@ -1267,7 +1394,12 @@
     "SingleRetrieveTime": 10,
     "CrateRetrieveTime": 10,
     "bIsLarge": true,
-    "bSupportsVehicleMounts": true
+    "bSupportsVehicleMounts": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction",
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "Iron",
@@ -1302,9 +1434,7 @@
     "Description": "A crate of items. These must be submitted to a stockpile before contained items can be retrieved.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 300,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 30,
@@ -1345,7 +1475,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ListeningKit",
@@ -1363,7 +1497,10 @@
     "CrateProductionTime": 60,
     "SingleRetrieveTime": 10,
     "CrateRetrieveTime": 20,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "LRArtilleryAmmo",
@@ -1400,7 +1537,10 @@
     "MaximumRange": 0,
     "MaximumReachability": 0,
     "CoverProvided": 0,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "Lore",
@@ -1408,9 +1548,7 @@
     "Description": "A torn piece of paper containing a fragment of text.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -1452,7 +1590,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MGTC",
@@ -1478,7 +1620,12 @@
     "MaxAmmo": 200,
     "CoverProvided": 1,
     "bIsLarge": true,
-    "bSupportsVehicleMounts": true
+    "bSupportsVehicleMounts": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction",
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "MGTW",
@@ -1504,7 +1651,12 @@
     "MaxAmmo": 150,
     "CoverProvided": 1,
     "bIsLarge": true,
-    "bSupportsVehicleMounts": true
+    "bSupportsVehicleMounts": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction",
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "MGW",
@@ -1542,7 +1694,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MaintenanceSupplies",
@@ -1557,7 +1713,11 @@
     "QuantityPerCrate": 100,
     "CrateProductionTime": 125,
     "SingleRetrieveTime": 30,
-    "CrateRetrieveTime": 12
+    "CrateRetrieveTime": 12,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MiniTankAmmo",
@@ -1584,7 +1744,11 @@
     "EnvironmentImpactAmount": 0,
     "AddedBurning": 0,
     "AddedHeat": 0,
-    "bApplyTankArmourMechanics": true
+    "bApplyTankArmourMechanics": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MortarAmmoFL",
@@ -1609,7 +1773,11 @@
     "AccuracyRadius": 200,
     "EnvironmentImpactAmount": 0,
     "AddedBurning": 0,
-    "AddedHeat": 0
+    "AddedHeat": 0,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MortarAmmo",
@@ -1635,7 +1803,11 @@
     "AccuracyRadius": 200,
     "EnvironmentImpactAmount": 0,
     "AddedBurning": 0,
-    "AddedHeat": 0
+    "AddedHeat": 0,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MortarAmmoSH",
@@ -1664,7 +1836,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bCanWoundCharacter": true,
-    "bAlwaysAppliesBleeding": true
+    "bAlwaysAppliesBleeding": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MortarTankAmmo",
@@ -1692,7 +1868,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "bCanRuinStructures": true,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Petrol",
@@ -1702,9 +1882,7 @@
     "ItemProfileType": "RefinedFuel",
     "Encumbrance": 325,
     "EquipmentSlot": "Tertiary",
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 2.5,
@@ -1734,7 +1912,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "PrototypeKit",
@@ -1771,7 +1953,12 @@
     "MaxAmmo": 2,
     "CoverProvided": 1,
     "bIsLarge": true,
-    "bSupportsVehicleMounts": true
+    "bSupportsVehicleMounts": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction",
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "Wood",
@@ -1827,7 +2014,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Revolver",
@@ -1864,7 +2055,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RifleAmmo",
@@ -1890,7 +2085,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RifleW",
@@ -1926,7 +2125,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RpgAmmo",
@@ -1981,7 +2184,11 @@
     "MaxAmmo": 1,
     "MaximumRange": 0,
     "MaximumReachability": 0,
-    "CoverProvided": 0
+    "CoverProvided": 0,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SMGHeavyC",
@@ -2018,7 +2225,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SMGHeavyW",
@@ -2055,7 +2266,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SatchelChargeT",
@@ -2084,7 +2299,10 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "bCanRuinStructures": true,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "Metal",
@@ -2124,7 +2342,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SledgeHammer",
@@ -2141,7 +2363,10 @@
     "QuantityPerCrate": 10,
     "CrateProductionTime": 100,
     "SingleRetrieveTime": 10,
-    "CrateRetrieveTime": 20
+    "CrateRetrieveTime": 20,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "SniperRifleAmmo",
@@ -2183,7 +2408,11 @@
     "QuantityPerCrate": 100,
     "CrateProductionTime": 200,
     "SingleRetrieveTime": 6,
-    "CrateRetrieveTime": 6
+    "CrateRetrieveTime": 6,
+    "ProducedIn": [
+      "FacilityPowerOil",
+      "FacilityRefineryCoal"
+    ]
   },
   {
     "CodeName": "TraumaKit",
@@ -2199,7 +2428,10 @@
     "QuantityPerCrate": 10,
     "CrateProductionTime": 50,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "Tripod",
@@ -2216,7 +2448,11 @@
     "CrateProductionTime": 60,
     "SingleRetrieveTime": 10,
     "CrateRetrieveTime": 20,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory",
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "WaterBucket",
@@ -2243,7 +2479,10 @@
     "MaximumRange": 200,
     "MaximumReachability": 200,
     "DeployDuration": 4,
-    "CoverProvided": 0
+    "CoverProvided": 0,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "Wreckage",
@@ -2272,7 +2511,10 @@
     "QuantityPerCrate": 50,
     "CrateProductionTime": 40,
     "SingleRetrieveTime": 0.5,
-    "CrateRetrieveTime": 8
+    "CrateRetrieveTime": 8,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "Binoculars",
@@ -2289,7 +2531,10 @@
     "QuantityPerCrate": 5,
     "CrateProductionTime": 50,
     "SingleRetrieveTime": 10,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "BunkerSupplies",
@@ -2332,7 +2577,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "MaximumRange": 0,
-    "DeployDuration": 4
+    "DeployDuration": 4,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Coal",
@@ -2353,7 +2602,10 @@
     "QuantityPerCrate": 1,
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "FacilityRefineryCoal"
+    ]
   },
   {
     "CodeName": "FacilityMaterials1",
@@ -2368,7 +2620,10 @@
     "QuantityPerCrate": 20,
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "FacilityRefinery1"
+    ]
   },
   {
     "CodeName": "FacilityMaterials2",
@@ -2385,7 +2640,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery2"
+    ]
   },
   {
     "CodeName": "FacilityMaterials3",
@@ -2402,7 +2660,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery2"
+    ]
   },
   {
     "CodeName": "FacilityMaterials4",
@@ -2419,7 +2680,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery1"
+    ]
   },
   {
     "CodeName": "FacilityMaterials5",
@@ -2436,7 +2700,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery1"
+    ]
   },
   {
     "CodeName": "FacilityMaterials6",
@@ -2453,7 +2720,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery2"
+    ]
   },
   {
     "CodeName": "FacilityMaterials7",
@@ -2470,7 +2740,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery2"
+    ]
   },
   {
     "CodeName": "FacilityMaterials8",
@@ -2487,7 +2760,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery2"
+    ]
   },
   {
     "CodeName": "FacilityOil1",
@@ -2535,7 +2811,10 @@
     "QuantityPerCrate": 1,
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
-    "CrateRetrieveTime": 3
+    "CrateRetrieveTime": 3,
+    "ProducedIn": [
+      "FacilityMineOil"
+    ]
   },
   {
     "CodeName": "PipeMaterials",
@@ -2598,7 +2877,10 @@
     "bApplyDamageFalloff": true,
     "bCanWoundCharacter": true,
     "bAppliesBurning": true,
-    "bNeverAppliesBleeding": true
+    "bNeverAppliesBleeding": true,
+    "ProducedIn": [
+      "FacilityMineWater"
+    ]
   },
   {
     "CodeName": "FieldMGAmmo",
@@ -2660,7 +2942,10 @@
     "bCanWoundCharacter": true,
     "bAppliesBurning": true,
     "bNeverAppliesBleeding": true,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "FirstAidKit",
@@ -2676,7 +2961,10 @@
     "QuantityPerCrate": 10,
     "CrateProductionTime": 35,
     "SingleRetrieveTime": 3.5,
-    "CrateRetrieveTime": 7
+    "CrateRetrieveTime": 7,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "GasMask",
@@ -2692,7 +2980,10 @@
     "QuantityPerCrate": 20,
     "CrateProductionTime": 100,
     "SingleRetrieveTime": 4,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "GrenadeW",
@@ -2723,7 +3014,11 @@
     "bApplyDamageFalloff": true,
     "bCanWoundCharacter": true,
     "MaximumRange": 0,
-    "DeployDuration": 4
+    "DeployDuration": 4,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "HELaunchedGrenade",
@@ -2750,7 +3045,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "MaximumRange": 0,
-    "DeployDuration": 4
+    "DeployDuration": 4,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "HeavyArtilleryAmmo",
@@ -2786,7 +3085,11 @@
     "MaximumRange": 0,
     "MaximumReachability": 0,
     "CoverProvided": 0,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "HMG",
@@ -2813,7 +3116,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 6,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery1"
+    ]
   },
   {
     "CodeName": "MetalBeamMaterials",
@@ -2830,7 +3136,11 @@
     "CrateProductionTime": 20,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 6,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory",
+      "FacilityRefinery2"
+    ]
   },
   {
     "CodeName": "SandbagMaterials",
@@ -2847,7 +3157,11 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 6,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory",
+      "FacilityRefinery1"
+    ]
   },
   {
     "CodeName": "LightArtilleryAmmo",
@@ -2883,7 +3197,11 @@
     "MaximumRange": 0,
     "MaximumReachability": 0,
     "CoverProvided": 0,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Lore5",
@@ -2891,9 +3209,7 @@
     "Description": "A shredded journal entry that appears intact",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -2905,9 +3221,7 @@
     "Description": "A tin flask, bits of it are rusted. ",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -2919,9 +3233,7 @@
     "Description": "A small metal key. ",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -2933,9 +3245,7 @@
     "Description": "This weighted runestone has rough edges.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -2947,9 +3257,7 @@
     "Description": "A runestone with edges that cut like a blade.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -2961,9 +3269,7 @@
     "Description": "A runestone that weighs no more than a feather.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -2975,9 +3281,7 @@
     "Description": "A runestone that appears to shimmer in the dark.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -2989,9 +3293,7 @@
     "Description": "A blackened runestone.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -3003,9 +3305,7 @@
     "Description": "A heated runestone.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -3017,9 +3317,7 @@
     "Description": "A peculiar book.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -3031,9 +3329,7 @@
     "Description": "A simple Loughcaster rifle, caked in blood. ",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -3045,9 +3341,7 @@
     "Description": "Ripped segment of rough parchment. Appears to be a letter.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -3059,9 +3353,7 @@
     "Description": "An old rusty shovel, caked in dried dirt.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 0,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 1,
     "CrateProductionTime": 30,
     "SingleRetrieveTime": 10,
@@ -3073,9 +3365,7 @@
     "Description": "A tin case filled with tobacco.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -3087,9 +3377,7 @@
     "Description": "A barely legible, mouldy page torn from a journal. ",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -3101,9 +3389,7 @@
     "Description": "A folded piece of paper, much of the ink is faded.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -3115,9 +3401,7 @@
     "Description": "Old remains of a scout’s reconnaissance log.",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -3129,9 +3413,7 @@
     "Description": "Excerpt from a Warden Scout's Journal",
     "ItemProfileType": "UniqueItem",
     "Encumbrance": 1,
-    "CostPerCrate": {
-      "None": 0
-    },
+    "CostPerCrate": {},
     "QuantityPerCrate": 20,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
@@ -3161,7 +3443,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Mortar",
@@ -3191,7 +3477,11 @@
     "MaxAmmo": 1,
     "MaximumRange": 0,
     "MaximumReachability": 0,
-    "CoverProvided": 0
+    "CoverProvided": 0,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "PistolLightW",
@@ -3229,7 +3519,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "PistolC",
@@ -3320,7 +3614,10 @@
     "QuantityPerCrate": 5,
     "CrateProductionTime": 75,
     "SingleRetrieveTime": 15,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "Radio",
@@ -3335,7 +3632,10 @@
     "QuantityPerCrate": 5,
     "CrateProductionTime": 50,
     "SingleRetrieveTime": 10,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "RifleAutomaticWSingle",
@@ -3407,7 +3707,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RifleC",
@@ -3444,7 +3748,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RifleHeavyC",
@@ -3482,7 +3790,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RifleHeavyW",
@@ -3520,7 +3832,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RifleLightC",
@@ -3557,7 +3873,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RifleLongC",
@@ -3595,7 +3915,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RifleLongW",
@@ -3633,7 +3957,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RocketBooster",
@@ -3649,7 +3977,10 @@
     "QuantityPerCrate": 1,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 600,
-    "CrateRetrieveTime": 600
+    "CrateRetrieveTime": 600,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "SMGC",
@@ -3687,7 +4018,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SatchelChargeW",
@@ -3717,7 +4052,10 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "bCanRuinStructures": true,
-    "DeployDuration": 1.5
+    "DeployDuration": 1.5,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "Shotgun",
@@ -3753,7 +4091,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Shovel",
@@ -3769,7 +4111,10 @@
     "QuantityPerCrate": 10,
     "CrateProductionTime": 100,
     "SingleRetrieveTime": 7.5,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "SmokeGrenade",
@@ -3796,7 +4141,11 @@
     "AddedBurning": 0,
     "AddedHeat": 0,
     "MaximumRange": 0,
-    "DeployDuration": 2.8
+    "DeployDuration": 2.8,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SniperRifleC",
@@ -3835,7 +4184,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SniperRifleW",
@@ -3874,7 +4227,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SoldierSupplies",
@@ -3889,7 +4246,10 @@
     "QuantityPerCrate": 10,
     "CrateProductionTime": 80,
     "SingleRetrieveTime": 8,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "StickyBomb",
@@ -3918,7 +4278,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 7,
     "MaximumRange": 720,
-    "DeployDuration": 4
+    "DeployDuration": 4,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SMGAmmo",
@@ -3944,7 +4308,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SMGW",
@@ -3981,7 +4349,11 @@
     "AddedHeat": 0,
     "VehicleSubsystemDisableMultipliers": 0,
     "bApplyDamageFalloff": true,
-    "bCanWoundCharacter": true
+    "bCanWoundCharacter": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ATLargeAmmo",
@@ -4012,7 +4384,10 @@
     "VehicleSubsystemDisableMultipliers": 3,
     "TankArmourPenetrationFactor": 2,
     "bApplyTankArmourMechanics": true,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "BattleTankAmmo",
@@ -4042,7 +4417,10 @@
     "AddedHeat": 0,
     "TankArmourPenetrationFactor": 1.5,
     "bApplyTankArmourMechanics": true,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "LightTankAmmo",
@@ -4069,7 +4447,11 @@
     "EnvironmentImpactAmount": 0,
     "AddedBurning": 0,
     "AddedHeat": 0,
-    "bApplyTankArmourMechanics": true
+    "bApplyTankArmourMechanics": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "UnexplodedOrdnance",
@@ -4116,7 +4498,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ArmourUniformC",
@@ -4135,7 +4521,11 @@
     "QuantityPerCrate": 5,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ArmourUniformW",
@@ -4154,7 +4544,11 @@
     "QuantityPerCrate": 3,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "EngineerUniformC",
@@ -4173,7 +4567,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "EngineerUniformW",
@@ -4192,7 +4590,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "GrenadeUniformC",
@@ -4211,7 +4613,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MedicUniformC",
@@ -4230,7 +4636,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "MedicUniformW",
@@ -4249,7 +4659,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "OfficerUniformC",
@@ -4268,7 +4682,11 @@
     "QuantityPerCrate": 3,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "OfficerUniformW",
@@ -4287,7 +4705,11 @@
     "QuantityPerCrate": 3,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "RainUniformC",
@@ -4306,7 +4728,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ScoutUniformC",
@@ -4325,7 +4751,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "ScoutUniformW",
@@ -4344,7 +4774,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SnowUniformC",
@@ -4363,7 +4797,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SnowUniformW",
@@ -4382,7 +4820,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "SoldierUniformC",
@@ -4437,7 +4879,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "TankUniformW",
@@ -4456,7 +4902,11 @@
     "QuantityPerCrate": 15,
     "CrateProductionTime": 90,
     "SingleRetrieveTime": 5,
-    "CrateRetrieveTime": 16
+    "CrateRetrieveTime": 16,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction"
+    ]
   },
   {
     "CodeName": "Warhead",
@@ -4473,7 +4923,10 @@
     "QuantityPerCrate": 1,
     "CrateProductionTime": 600,
     "SingleRetrieveTime": 10,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "Factory"
+    ]
   },
   {
     "CodeName": "WorkHammer",
@@ -4504,6 +4957,9 @@
     "QuantityPerCrate": 5,
     "CrateProductionTime": 50,
     "SingleRetrieveTime": 10,
-    "CrateRetrieveTime": 10
+    "CrateRetrieveTime": 10,
+    "ProducedIn": [
+      "Factory"
+    ]
   }
 ]

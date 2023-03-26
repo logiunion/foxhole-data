@@ -1,12 +1,10 @@
 import fs from "fs";
 
 const all = JSON.parse(fs.readFileSync('basic.json'))
-const dataTable = JSON.parse(fs.readFileSync('datatables.json'))
+//const dataTable = JSON.parse(fs.readFileSync('datatables.json'))
 
 const items = []
 const todo = []
-
-const damageTypes = new Set()
 
 const copyProps = [
   'DisplayName', 'Description',
@@ -51,6 +49,8 @@ const damageTypeProps = [
   'bAlwaysAppliesBleeding',
 ]
 
+const codeNames = {}
+
 for (const codeName of Object.keys(all)) {
   const dataItem = all[codeName]
   if (!dataItem.BPTypes.includes('Items') && !dataItem.BPTypes.includes('ItemPickups')) {
@@ -82,7 +82,7 @@ for (const codeName of Object.keys(all)) {
     items.push(singleShotItem)
   }
 
-  items.push(item)
+  codeNames[codeName] = items.push(item) - 1
 
   delete dataItem.BPTypes
   delete dataItem.files
@@ -97,6 +97,44 @@ for (const codeName of Object.keys(all)) {
     todo.push(dataItem)
   }
 
+}
+
+for (const codeName of Object.keys(all)) {
+  const dataItem = all[codeName]
+  if (dataItem.ProductionCategories) {
+    for (const category of dataItem.ProductionCategories) {
+      for (const item of category.CategoryItems) {
+        if (item.CodeName in codeNames) {
+          if (!("ProducedIn" in items[codeNames[item.CodeName]])) {
+            items[codeNames[item.CodeName]].ProducedIn = []
+          }
+          if (!items[codeNames[item.CodeName]].ProducedIn.includes(codeName)) {
+            items[codeNames[item.CodeName]].ProducedIn.push(codeName)
+          }
+        }
+      }
+    }
+  }
+  if (dataItem.Modifications) {
+    for (const mods of dataItem.Modifications) {
+      if (mods.ConversionEntries) {
+        for (const conversion of mods.ConversionEntries) {
+          if (conversion.Output) {
+            for (const output of conversion.Output) {
+              if (output.CodeName in codeNames) {
+                if (!("ProducedIn" in items[codeNames[output.CodeName]])) {
+                  items[codeNames[output.CodeName]].ProducedIn = []
+                }
+                if (!items[codeNames[output.CodeName]].ProducedIn.includes(codeName)) {
+                  items[codeNames[output.CodeName]].ProducedIn.push(codeName)
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 fs.writeFileSync('docs/items.json', JSON.stringify(items, null, 2))
@@ -143,6 +181,9 @@ function copyProperties(item, dataItem, copyProps, ignore = [], overwrite = fals
 function costPerCrate(item, values) {
   item.CostPerCrate = {}
   for (const value of values) {
+    if (value.ItemCodeName === 'None') {
+      continue
+    }
     item.CostPerCrate[value.ItemCodeName] = value.Quantity
   }
 }
