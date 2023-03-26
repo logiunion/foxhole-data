@@ -1,4 +1,5 @@
 import fs from "fs";
+import {copyProperties} from "./common.js";
 
 const all = JSON.parse(fs.readFileSync('basic.json'))
 //const dataTable = JSON.parse(fs.readFileSync('datatables.json'))
@@ -56,11 +57,11 @@ for (const codeName of Object.keys(all)) {
   if (!dataItem.BPTypes.includes('Items') && !dataItem.BPTypes.includes('ItemPickups')) {
     continue
   }
-  if (dataItem.BPTypes.includes('Vehicles') || dataItem.BPTypes.includes('Structures')) {
+  if (dataItem.BPTypes.includes('Vehicles')) { // || dataItem.BPTypes.includes('Structures')
     continue
   }
   if (!dataItem.ItemProfileType) {
-    console.log(dataItem)
+    console.log('No type', codeName)
     continue
   }
 
@@ -115,6 +116,22 @@ for (const codeName of Object.keys(all)) {
       }
     }
   }
+  if (dataItem.ConversionEntries) {
+    for (const conversion of dataItem.ConversionEntries) {
+      if (conversion.Output) {
+        for (const output of conversion.Output) {
+          if (output.CodeName in codeNames) {
+            if (!("ProducedIn" in items[codeNames[output.CodeName]])) {
+              items[codeNames[output.CodeName]].ProducedIn = []
+            }
+            if (!items[codeNames[output.CodeName]].ProducedIn.includes(codeName)) {
+              items[codeNames[output.CodeName]].ProducedIn.push(codeName)
+            }
+          }
+        }
+      }
+    }
+  }
   if (dataItem.Modifications) {
     for (const mods of dataItem.Modifications) {
       if (mods.ConversionEntries) {
@@ -140,43 +157,6 @@ for (const codeName of Object.keys(all)) {
 fs.writeFileSync('docs/items.json', JSON.stringify(items, null, 2))
 fs.writeFileSync('items-todo.json', JSON.stringify(todo, null, 2))
 console.log(todo.length)
-
-function copyProperties(item, dataItem, copyProps, ignore = [], overwrite = false) {
-  for (let column of copyProps) {
-    if (typeof column === 'string') {
-      column = {name: column, merge: [column]}
-    }
-    if (ignore.includes(column.name)) {
-      continue
-    }
-    if (column.merge) {
-      for (const key of column.merge) {
-        if (!(key in dataItem)) {
-          continue
-        }
-        if (column.name in item && item[column.name] !== dataItem[key] && !overwrite) {
-          console.log('different value for', item.CodeName, column.name, item[column.name], dataItem[key], ignore)
-        }
-        else {
-          item[column.name] = dataItem[key]
-        }
-        delete dataItem[key]
-      }
-      continue
-    }
-    if (!(column.name in dataItem)) {
-      continue
-    }
-    const value = dataItem[column.name]
-    if (column.replace) {
-      item[column.name] = value.replace(column.replace[0], column.replace[1])
-    }
-    else if (column.function) {
-      column.function(item, value)
-    }
-    delete dataItem[column.name]
-  }
-}
 
 function costPerCrate(item, values) {
   item.CostPerCrate = {}

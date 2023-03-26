@@ -60,10 +60,6 @@
       "SpawnPointComponent": 10,
       "TechTreeComponent": 1
     },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__HomeRegionSpawn_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/HomeRegionSpawn.28"
-    },
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__HomeRegionSpawn_C:TechTreeComponent'",
       "ObjectPath": "War/Content/Blueprints/HomeRegionSpawn.113"
@@ -127,17 +123,6 @@
     "ItemCategory": "EItemCategory::HeavyAmmo",
     "ItemFlagsMask": 17,
     "ItemProfileType": "EItemProfileType::HeavyAmmo",
-    "RadialHitImpact": {
-      "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
-    },
-    "ExplosionLightFadeOut": 0.15,
-    "CameraShake": {
-      "ObjectName": "BlueprintGeneratedClass'GrenadeCameraShake_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/GrenadeCameraShake.0"
-    },
-    "CameraShakeOuterRadius": 1800,
-    "TankArmourEffectBehaviour": "ETankArmourEffectBehaviour::DoNotPlayEffect",
     "InitialLifeSpan": 30,
     "Radius": 500,
     "ImpulseStrength": 100000,
@@ -5389,17 +5374,6 @@
     "ItemCategory": "EItemCategory::HeavyArms",
     "ItemFlagsMask": 16401,
     "ItemProfileType": "EItemProfileType::LargeItemAmmo",
-    "RadialHitImpact": {
-      "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
-    },
-    "ExplosionLightFadeOut": 0.15,
-    "CameraShake": {
-      "ObjectName": "BlueprintGeneratedClass'GrenadeCameraShake_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/GrenadeCameraShake.0"
-    },
-    "CameraShakeOuterRadius": 1800,
-    "TankArmourEffectBehaviour": "ETankArmourEffectBehaviour::DoNotPlayEffect",
     "InitialLifeSpan": 30,
     "Radius": 500,
     "ImpulseStrength": 100000,
@@ -5485,7 +5459,6 @@
     },
     "MaxActiveLightsInRange": 3,
     "MaxLightCullingRange": 3000,
-    "ExplosionLightFadeOut": 0.15,
     "bDoNotOrientToImpactNormal": true,
     "ManualDeactivateTime": 1,
     "bFadeSoundOnDeactivate": true,
@@ -5560,7 +5533,6 @@
     "ItemCategory": "EItemCategory::HeavyArms",
     "ItemFlagsMask": 17,
     "ItemProfileType": "EItemProfileType::HeavyAmmo",
-    "ExplosionLightFadeOut": 0.15,
     "bDoNotOrientToImpactNormal": true,
     "bIsDelayed": true,
     "DetonationDelay": 0.5,
@@ -5640,7 +5612,6 @@
     "ItemCategory": "EItemCategory::HeavyArms",
     "ItemFlagsMask": 17,
     "ItemProfileType": "EItemProfileType::HeavyAmmo",
-    "ExplosionLightFadeOut": 0.15,
     "bDoNotOrientToImpactNormal": true,
     "bIsDelayed": true,
     "DetonationDelay": 0.5,
@@ -9167,7 +9138,6 @@
     "ItemProfileType": "EItemProfileType::HeavyAmmo",
     "bIsLarge": true,
     "EquippedGripType": "EEquippedWeaponGripType::LargeDeployableItem",
-    "ExplosionLightFadeOut": 0.15,
     "bDoNotOrientToImpactNormal": true,
     "bIsDelayed": true,
     "DetonationDelay": 0.5,
@@ -13124,17 +13094,6 @@
     "ItemProfileType": "EItemProfileType::HeavyAmmo",
     "bIsLarge": true,
     "EquippedGripType": "EEquippedWeaponGripType::LargeDeployableItem",
-    "RadialHitImpact": {
-      "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
-    },
-    "ExplosionLightFadeOut": 0.15,
-    "CameraShake": {
-      "ObjectName": "BlueprintGeneratedClass'GrenadeCameraShake_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/GrenadeCameraShake.0"
-    },
-    "CameraShakeOuterRadius": 1800,
-    "TankArmourEffectBehaviour": "ETankArmourEffectBehaviour::DoNotPlayEffect",
     "InitialLifeSpan": 30,
     "Radius": 500,
     "ImpulseStrength": 100000,
@@ -13217,17 +13176,6 @@
     "ItemFlagsMask": 17,
     "ItemProfileType": "EItemProfileType::HeavyAmmo",
     "bIsLarge": true,
-    "RadialHitImpact": {
-      "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
-    },
-    "ExplosionLightFadeOut": 0.15,
-    "CameraShake": {
-      "ObjectName": "BlueprintGeneratedClass'GrenadeCameraShake_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/GrenadeCameraShake.0"
-    },
-    "CameraShakeOuterRadius": 1800,
-    "TankArmourEffectBehaviour": "ETankArmourEffectBehaviour::DoNotPlayEffect",
     "InitialLifeSpan": 30,
     "Radius": 500,
     "ImpulseStrength": 100000,
@@ -13305,17 +13253,6 @@
     "ItemCategory": "EItemCategory::HeavyAmmo",
     "ItemFlagsMask": 17,
     "ItemProfileType": "EItemProfileType::HeavyAmmo",
-    "RadialHitImpact": {
-      "ObjectName": "BlueprintGeneratedClass'RifleImpactEffect_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/RifleImpactEffect.1"
-    },
-    "ExplosionLightFadeOut": 0.15,
-    "CameraShake": {
-      "ObjectName": "BlueprintGeneratedClass'GrenadeCameraShake_C'",
-      "ObjectPath": "War/Content/Blueprints/Items/GrenadeCameraShake.0"
-    },
-    "CameraShakeOuterRadius": 1800,
-    "TankArmourEffectBehaviour": "ETankArmourEffectBehaviour::DoNotPlayEffect",
     "InitialLifeSpan": 30,
     "Radius": 500,
     "ImpulseStrength": 100000,
@@ -24326,10 +24263,6 @@
       "MapIntelligenceSourceComponent": 1,
       "BPDestroyedObservationTower_C": 1
     },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPObservationTower_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/BPObservationTower.6"
-    },
     "ProceduralUseVolumeFactor": 1,
     "Description": "An Observation Tower that provides intel on friendly and enemy forces in an area.",
     "ValidBuildTools": 24,
@@ -27218,10 +27151,6 @@
       "BPWatchTower_C": 1,
       "MapIntelligenceSourceComponent": 1
     },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPWatchTower_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/BPWatchTower.7"
-    },
     "ProceduralUseVolumeFactor": 1,
     "NoBuildPhysicalMaterials": [
       "WetSandPhys",
@@ -29711,10 +29640,6 @@
       "RuinedComponent": 1
     },
     "bIsFort": true,
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPRelicBase_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPRelicBase.19"
-    },
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__BPRelicBase_C:TechTreeComponent'",
       "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPRelicBase.40"
@@ -29816,10 +29741,6 @@
       "SpawnPointComponent": 6,
       "TechTreeComponent": 1,
       "BPRelicBaseTechTree_C": 1
-    },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPRelicBase1_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPRelicBase1.28"
     },
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__BPRelicBase1_C:TechTreeComponent'",
@@ -30036,10 +29957,6 @@
       "BPRelicBaseTechTree_C": 1,
       "BPDestroyedRelicBase2_C": 1,
       "RuinedComponent": 1
-    },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPRelicBase2_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPRelicBase2.35"
     },
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__BPRelicBase2_C:TechTreeComponent'",
@@ -30282,10 +30199,6 @@
       "BPRelicBaseTechTree_C": 1,
       "BPDestroyedRelicBase3_C": 1,
       "RuinedComponent": 1
-    },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPRelicBase3_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPRelicBase3.33"
     },
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__BPRelicBase3_C:TechTreeComponent'",
@@ -30586,10 +30499,6 @@
         "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPWindowMeshSet.0"
       }
     },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPTownBase1_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPTownBase1.68"
-    },
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__BPTownBase1_C:TechTreeComponent'",
       "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPTownBase1.300"
@@ -30764,10 +30673,6 @@
         "ObjectName": "BlueprintGeneratedClass'BPWindowMeshSet_C'",
         "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPWindowMeshSet.0"
       }
-    },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPTownBase2_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPTownBase2.75"
     },
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__BPTownBase2_C:TechTreeComponent'",
@@ -30944,10 +30849,6 @@
         "ObjectName": "BlueprintGeneratedClass'BPWindowMeshSet_C'",
         "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPWindowMeshSet.0"
       }
-    },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__BPTownBase3_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Bases/BPTownBase3.51"
     },
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__BPTownBase3_C:TechTreeComponent'",
@@ -49044,10 +48945,6 @@
       "ObjectName": "TechTreeComponent'Default__TownCLargeGarrisonGS1_C:TechTreeComponent'",
       "ObjectPath": "War/Content/Blueprints/Structures/Town/TownCLargeGarrisonGS1.215"
     },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__TownCLargeGarrisonGS1_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Town/TownCLargeGarrisonGS1.65"
-    },
     "TunnelConnectionRange": 10000,
     "TunnelNodeType": "ETunnelNodeType::Source",
     "ValidBuildTools": 24,
@@ -50113,10 +50010,6 @@
       "ObjectName": "TechTreeComponent'Default__TownWLargeG1_C:TechTreeComponent'",
       "ObjectPath": "War/Content/Blueprints/Structures/Town/TownWLargeG1.17"
     },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__TownWLargeG1_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Town/TownWLargeG1.10"
-    },
     "NetCullDistanceSquared": 144000000,
     "TownWLargeG1_C[1].BaseStructureClass.TownWLargeG1Destroyed_C[1].TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__TownWLargeG1Destroyed_C:TechTreeComponent'",
@@ -50567,10 +50460,6 @@
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__TownWLargeGS1_C:TechTreeComponent'",
       "ObjectPath": "War/Content/Blueprints/Structures/Town/TownWLargeGS1.158"
-    },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__TownWLargeGS1_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Town/TownWLargeGS1.40"
     },
     "TunnelConnectionRange": 10000,
     "TunnelNodeType": "ETunnelNodeType::Source",
@@ -52535,10 +52424,6 @@
     "TechTreeComponent": {
       "ObjectName": "TechTreeComponent'Default__UniqueWWarehouseG2_C:TechTreeComponent'",
       "ObjectPath": "War/Content/Blueprints/Structures/Town/UniqueWWarehouseG2.317"
-    },
-    "MapIntelligenceSourceComponent": {
-      "ObjectName": "MapIntelligenceSourceComponent'Default__UniqueWWarehouseG2_C:MapIntelligenceSource'",
-      "ObjectPath": "War/Content/Blueprints/Structures/Town/UniqueWWarehouseG2.49"
     },
     "TunnelConnectionRange": 10000,
     "TunnelNodeType": "ETunnelNodeType::Source",

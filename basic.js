@@ -63,7 +63,7 @@ const INCLUDE_CLASSES = [
   'ExplosiveClass', 'ItemComponentClass', 'GrenadeClass', 'AITurretsController', 'BaseStructureClass',
   'MapIntelligenceSource', 'AFKTimeoutComponent', 'CharacterMovement', 'WorkVolume', 'GenericStockpileComponent',
   'DamageType', 'ResourceClass', 'SpecializedFactoryComponent', 'ReserveStockpileComponent', 'GarrisonComponent',
-  'DataClass', 'CraneComponent', 'ExplosionClass', 'MountComponent',
+  'DataClass', 'CraneComponent', 'ExplosionClass', 'MountComponent', 'MapIntelligenceSourceComponent',
 ]
 
 const INCLUDE_MULTI_CLASSES = [

@@ -25,9 +25,10 @@
 <body>
 
     Version: 1.52.17.4<br>
-    <a href="structures.html">Structures</a><br><br>
+    <a href="items.html">Items</a><br><br>
 
-    <a href="items.json">Raw Data as JSON</a><br><br>
+
+    <a href="structures.json">Raw Data as JSON</a><br><br>
 
     Toggle Columns
     <ul id="columns"></ul>
@@ -41,12 +42,26 @@
 
     <script>
       $(document).ready(function () {
-        fetch('items.json')
+        fetch('structures.json')
           .then(response => response.json())
           .then(data => {
             let columns = {}
 
-            const codeName2DisplayName = {}
+            const codeName2DisplayName = {
+              Cloth: 'Basic Material',
+              Concrete: 'Concrete Materials',
+              BarbedWireMaterials: 'Barbed Wire',
+              Wood: 'Refined Materials',
+              FacilityMaterials1: 'Construction Materials',
+              FacilityMaterials2: 'Processed Construction Materials',
+              FacilityMaterials3: 'Steel Construction Materials',
+              FacilityMaterials4: 'Assembly Materials I',
+              FacilityMaterials7: 'Assembly Materials IV',
+              PipeMaterials: 'Pipe',
+              GroundMaterials: 'Gravel',
+              SandbagMaterials: 'Sandbag',
+            }
+
             for (const value of data) {
               for (const key of Object.keys(value)) {
                 columns[key] = {
@@ -55,7 +70,6 @@
                   defaultContent: '',
                 }
               }
-              codeName2DisplayName[value.CodeName] = value.DisplayName
             }
 
             $('#items').append('<tfoot><tr></tr></tfoot>')
@@ -68,14 +82,15 @@
               }
               $('#columns').append('<li><a href="" class="toggle-vis" data-column="'+columnKey+'">' + column.data + '</a></li>')
 
-              if (column.data === 'CostPerCrate') {
+              if (column.data === 'ResourceAmounts') {
                 column.render = (data) => {
-                  if (!data) {
+                  if (!data || data.length === 0) {
                     return ''
                   }
+                  data = data.shift()
                   let str = []
                   for (const key of Object.keys(data)) {
-                    str.push(codeName2DisplayName[key] + ': ' + data[key])
+                    str.push((codeName2DisplayName[key] ?? key) + ': ' + data[key])
                   }
                   return str.join('<br>')
                 }
@@ -94,7 +109,7 @@
                   .every(function () {
                     const column = this;
                     const columnDataName = column.settings()[0].aoColumns[column.index()].data
-                    if (!['ItemProfileType', 'FactionVariant', 'ItemCategory'].includes(columnDataName)) {
+                    if (!['BuildCategory', 'FactionVariant'].includes(columnDataName)) {
                       return
                     }
                     const select = $('<select><option value=""></option></select>')

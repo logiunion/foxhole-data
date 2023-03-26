@@ -1276,6 +1276,39 @@
     ]
   },
   {
+    "CodeName": "GrenadeLauncherTC",
+    "DisplayName": "Mounted Fissura gd.I",
+    "Description": "Capable of firing different grenades, quickly and at long range, the Fissura gd.I is mobile enough for easy transport, while increasing the effectiveness of infantry ordinance. ",
+    "ItemCategory": "HeavyArms",
+    "ItemProfileType": "HandheldWeapon",
+    "Encumbrance": 300,
+    "EquipmentSlot": "Large",
+    "FactionVariant": "Colonials",
+    "TechID": "UnlockGrenadeLauncherT",
+    "CostPerCrate": {
+      "Cloth": 100,
+      "Wood": 5
+    },
+    "QuantityPerCrate": 5,
+    "CrateProductionTime": 125,
+    "SingleRetrieveTime": 10,
+    "CrateRetrieveTime": 10,
+    "DamageMultiplier": 1,
+    "SuppressionMultiplier": 1,
+    "AddedBurningMultiplier": 0,
+    "MaxAmmo": 4,
+    "MaximumRange": 0,
+    "DeployDuration": 4,
+    "CoverProvided": 1,
+    "bIsLarge": true,
+    "bSupportsVehicleMounts": true,
+    "ProducedIn": [
+      "Factory",
+      "MassProduction",
+      "FacilityFactoryAmmo"
+    ]
+  },
+  {
     "CodeName": "GroundMaterials",
     "DisplayName": "Gravel",
     "Description": "Resource used for building Roads and Foundations.",
