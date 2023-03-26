@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Items</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.3.2/css/fixedHeader.dataTables.min.css">
+    <style>
+        #columns {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 10px;
+            gap: 10px;
+        }
+        #columns li {
+            display: inline;
+        }
+        table tbody tr:hover {
+            background-color: #ffff99;
+        }
+    </style>
+</head>
+<body>
+
+    Version: 1.52.17.4<br><br>
+
+    <a href="items.json">Raw Data as JSON</a><br><br>
+
+    Toggle Columns
+    <ul id="columns"></ul>
+
+    <table id="items" style="width: 100%">
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.3.2/js/dataTables.fixedHeader.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        fetch('items.json')
+          .then(response => response.json())
+          .then(data => {
+            let columns = {}
+
+            const codeName2DisplayName = {}
+            for (const value of data) {
+              for (const key of Object.keys(value)) {
+                columns[key] = {
+                  data: key,
+                  title: key,
+                  defaultContent: '',
+                }
+              }
+              codeName2DisplayName[value.CodeName] = value.DisplayName
+            }
+
+            $('#items').append('<tfoot><tr></tr></tfoot>')
+            columns = Object.values(columns)
+            for (const columnKey in columns) {
+              const column = columns[columnKey]
+              $('#items tfoot tr').append('<td></td>')
+              if (column.data === 'Description' || column.data === 'CodeName') {
+                column.visible = false
+              }
+              $('#columns').append('<li><a href="" class="toggle-vis" data-column="'+columnKey+'">' + column.data + '</a></li>')
+
+              if (column.data === 'CostPerCrate') {
+                column.render = (data) => {
+                  if (!data) {
+                    return ''
+                  }
+                  let str = []
+                  for (const key of Object.keys(data)) {
+                    str.push(codeName2DisplayName[key] + ': ' + data[key])
+                  }
+                  return str.join('<br>')
+                }
+              }
+            }
+
+
+            const table = $('#items').DataTable({
+              data: data,
+              columns: columns,
+              pageLength: 25,
+              fixedHeader: true,
+              initComplete: function () {
+                this.api()
+                  .columns()
+                  .every(function () {
+                    const column = this;
+                    const columnDataName = column.settings()[0].aoColumns[column.index()].data
+                    if (!['ItemProfileType', 'FactionVariant', 'ItemCategory'].includes(columnDataName)) {
+                      return
+                    }
+                    const select = $('<select><option value=""></option></select>')
+                      .appendTo($(column.footer()).empty())
+                      .on('change', function () {
+                        const val = $.fn.dataTable.util.escapeRegex($(this).val());
+
+                        column.search(val ? '^' + val + '$' : '', true, false).draw();
+                      });
+
+                    column
+                      .data()
+                      .unique()
+                      .sort()
+                      .each(function (d, j) {
+                        select.append('<option value="' + d + '">' + d + '</option>');
+                      });
+                  });
+              },
+            });
+
+            $('a.toggle-vis').on('click', function (e) {
+              e.preventDefault();
+
+              // Get the column API object
+              const column = table.column($(this).attr('data-column'));
+              // Toggle the visibility
+              column.visible(!column.visible());
+            });
+
+          })
+
+      });
+    </script>
+</body>
+</html>
