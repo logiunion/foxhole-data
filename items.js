@@ -99,7 +99,7 @@ for (const codeName of Object.keys(all)) {
 
 }
 
-fs.writeFileSync('frontend/items.json', JSON.stringify(items, null, 2))
+fs.writeFileSync('public/items.json', JSON.stringify(items, null, 2))
 fs.writeFileSync('items-todo.json', JSON.stringify(todo, null, 2))
 console.log(todo.length)
 
