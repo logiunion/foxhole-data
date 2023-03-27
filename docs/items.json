@@ -765,6 +765,7 @@
     "SingleRetrieveTime": 6,
     "CrateRetrieveTime": 6,
     "ProducedIn": [
+      "FacilityMineResource2",
       "FacilityRefinery2"
     ]
   },
@@ -785,6 +786,7 @@
     "CrateRetrieveTime": 10,
     "bIsLarge": true,
     "ProducedIn": [
+      "ConcreteMixer",
       "FacilityRefineryCoal"
     ]
   },
@@ -982,7 +984,10 @@
     "bAppliesBurning": true,
     "bNeverAppliesBleeding": true,
     "bIsLarge": true,
-    "bSupportsVehicleMounts": true
+    "bSupportsVehicleMounts": true,
+    "ProducedIn": [
+      "FacilityFactoryAmmo"
+    ]
   },
   {
     "CodeName": "FlameBackpackAmmo",
@@ -1749,7 +1754,8 @@
     "CrateRetrieveTime": 12,
     "ProducedIn": [
       "Factory",
-      "MassProduction"
+      "MassProduction",
+      "FacilityRefinery1"
     ]
   },
   {
@@ -1904,7 +1910,8 @@
     "bIsLarge": true,
     "ProducedIn": [
       "Factory",
-      "MassProduction"
+      "MassProduction",
+      "FacilityFactoryAmmo"
     ]
   },
   {
@@ -2349,7 +2356,10 @@
     "QuantityPerCrate": 100,
     "CrateProductionTime": 100,
     "SingleRetrieveTime": 3,
-    "CrateRetrieveTime": 3
+    "CrateRetrieveTime": 3,
+    "ProducedIn": [
+      "FacilityMineResource1"
+    ]
   },
   {
     "CodeName": "ShotgunAmmo",
@@ -2443,6 +2453,7 @@
     "SingleRetrieveTime": 6,
     "CrateRetrieveTime": 6,
     "ProducedIn": [
+      "FacilityMineResource3",
       "FacilityPowerOil",
       "FacilityRefineryCoal"
     ]
@@ -2621,7 +2632,10 @@
     "DisplayName": "Coal",
     "Description": "Chunks of raw Coal that can be refined into materials needed for production and power generation at Facilities.",
     "ItemCategory": "Supplies",
-    "ItemProfileType": "RawResource"
+    "ItemProfileType": "RawResource",
+    "ProducedIn": [
+      "FacilityMineResource4"
+    ]
   },
   {
     "CodeName": "FacilityCoal1",
@@ -2864,7 +2878,10 @@
     "CrateProductionTime": 15,
     "SingleRetrieveTime": 1.5,
     "CrateRetrieveTime": 10,
-    "bIsLarge": true
+    "bIsLarge": true,
+    "ProducedIn": [
+      "FacilityRefinery2"
+    ]
   },
   {
     "CodeName": "RareMaterials",

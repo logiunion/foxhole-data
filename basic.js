@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const version = "1.52.17.4"
+const version = "1.52.17.5"
 const WAR_DIR_PREFIX = `raw/${version}/`
 
 const allBluePrintFiles = deepScanDir(`${WAR_DIR_PREFIX}War/Content/Blueprints`)
